@@ -1,16 +1,17 @@
 <template>
     <div id="app">
-        <h1>Hello from App parent</h1>
-        <test></test>
+        <Users></Users>
     </div>
 </template>
 
 <script>
-import Test from './components/test'
+import Users from './components/Users'
+import Test from './components/Test'
     
 export default {
     name: 'app',
     components: {
+        Users,
         Test
     }
 }
